@@ -10,6 +10,8 @@ for(let i = 0; i < dogImages.length; i++){
 	dogImages[i].style.borderRadius = '50px'; 
 		dogImages[i].style.border = '10px solid hotpink';
 }
+dogImages[0].style.transform = "rotate(180deg)";
+dogImages[2].style.transform = "rotate(180deg)";
 
 let dogNames = document.querySelectorAll('.dog-name')
 	for(let i=0; i < dogNames.length; i++){
@@ -32,3 +34,4 @@ let dogImgSize = document.querySelector('.imagesize')
 for(let i = 0; i < dogImgSize.length; i++){
 	dogImgSize[i].style.border = '2px solid hotpink';
 }
+
